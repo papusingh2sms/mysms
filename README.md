@@ -1,6 +1,6 @@
 # MySMS v1.0
 ## Author: https://github.com/thelinuxchoice/mysms
-## IG: instagram.com/thelinuxchoice
+## IG: https://www.instagram.com/thelinuxchoice
 ### Don't copy this code without give me the credits, nerd! 
 
 Script that generates an Android App to hack SMS through WAN 
