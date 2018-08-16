@@ -30,7 +30,9 @@ Run Android Studio:
 # cd /opt/android-studio/bin
 # ./studio.sh
 
-Go to SDK Manager and Download Build Tools 26.0.0
+Go to SDK Manager (Configure -> SDK Manager) and Download:
+Android SDK-tools, Android SDK platform-tools, Support Repository
+
 Use Java8:
 Get Java8 dir with command:
 # update-alternatives --list java
