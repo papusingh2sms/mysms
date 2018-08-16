@@ -31,7 +31,7 @@ Run Android Studio:
 # ./studio.sh
 
 Go to SDK Manager (Configure -> SDK Manager) and Download:
-Android SDK-tools, Android SDK platform-tools, Support Repository
+Android SDK Build-tools, Android SDK-tools, Android SDK platform-tools, Support Repository
 
 Use Java8:
 Get Java8 dir with command:
