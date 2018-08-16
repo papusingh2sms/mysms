@@ -15,10 +15,33 @@ Script that generates an Android App to hack SMS through WAN
 Usage of MySMS for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
 
 
-### Usage:
+### Installing on Kali Linux:
 ```
-git clone https://github.com/thelinuxchoice/mysms
-cd mysms
+# git clone https://github.com/thelinuxchoice/mysms
+# cd mysms
+
+Download Android Studio:
+https://developer.android.com/studio
+
+Install:
+# unzip ~/Download/android*.zip -d /opt
+
+Run Android Studio:
+# cd /opt/android-studio/bin
+# ./studio.sh
+
+Go to SDK Manager and Download Build Tools 26.0.0
+Use Java8:
+Get Java8 dir with command:
+# update-alternatives --list java
+
+Copy and replace dir on command:
+# update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+
+Run script:
+# cd mysms/
+# bash mysms.sh
+
 bash mysms.sh
 ```
 
