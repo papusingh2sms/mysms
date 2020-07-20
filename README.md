@@ -1,6 +1,5 @@
 # MySMS v1.0
-## Author: https://github.com/thelinuxchoice/mysms
-## IG: https://www.instagram.com/thelinuxchoice
+
 ### Don't copy this code without give me the credits, nerd! 
 
 Script that generates an Android App to hack SMS through WAN 
@@ -47,7 +46,6 @@ Go to SDK Manager (Configure -> SDK Manager) and Download:
 Android SDK Build-tools, Android SDK-tools, Android SDK platform-tools, Support Repository
 
 Run script:
-# git clone https://github.com/thelinuxchoice/mysms
 # cd mysms/
 # bash mysms.sh
 
@@ -56,4 +54,3 @@ Run script:
 ### Donate!
 Support the authors:
 
-<noscript><a href="https://liberapay.com/thelinuxchoice/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
