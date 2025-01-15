@@ -9,6 +9,12 @@
 
 # Add any project specific keep options here:
 
+# Keep Retrofit model classes
+-keep class com.mysms.model.** { *; }
+
+# Keep Gson model classes
+-keep class com.mysms.gson.** { *; }
+
 # If your project uses WebView with JS, uncomment the following
 # and specify the fully qualified class name to the JavaScript interface
 # class:
@@ -18,7 +24,7 @@
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+-keepattributes SourceFile,LineNumberTable
 
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
