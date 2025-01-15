@@ -38,7 +38,7 @@ printf "  |  \/  |_   _/ ___||  \/  / ___|  \n"
 printf "  | |\/| | | | \___ \| |\/| \___ \  \n"
 printf "  | |  | | |_| |___) | |  | |___) | \n"
 printf "  |_|  |_|\__, |____/|_|  |_|____/ v1.0 \n"
-printf "          |___/\e[0m\e[1;92m Author: @thelinuxchoice\e[0m\n"
+printf "          |___/\e[0m\e[1;92m Author: @papusingh2sms\e[0m\n"
 printf "\n"
 }
 
