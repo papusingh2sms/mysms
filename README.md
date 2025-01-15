@@ -17,19 +17,19 @@ Usage of MySMS for attacking targets without prior mutual consent is illegal. It
 ### Installing on Kali Linux:
 ```
 Install dependencies:
-# apt-get update
-# apt-get install openjdk-8-jdk
-# apt-get install gradle
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+sudo apt-get install gradle
 
 Use Java8:
 Get Java8 dir with command:
 # update-alternatives --list java
 
-Copy and replace dir on command:
-# update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# Set Java 8 as default
+sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
 
-Download Android Studio:
-https://developer.android.com/studio
+# Download Android Studio (replace with the latest version link)
+wget https://dl.google.com/android/studio/ide-zips/2021.1.1.14/android-studio-2021.1.1.14-linux.tar.gz -O ~/Downloads/android
 
 Installing Android Studio:
 # unzip ~/Download/android*.zip -d /opt
@@ -46,11 +46,7 @@ Go to SDK Manager (Configure -> SDK Manager) and Download:
 Android SDK Build-tools, Android SDK-tools, Android SDK platform-tools, Support Repository
 
 Run script:
-# cd mysms/
-# bash mysms.sh
+cd mysms/
+chmod +x mysms.sh
 
-```
-
-### Donate!
-Support the authors:
 
