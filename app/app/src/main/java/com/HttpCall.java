@@ -1,7 +1,9 @@
 package com.mysms;
+
 import java.util.HashMap;
 
 /**
+ * HttpCall class for handling HTTP requests.
  * Created by pethoalpar on 4/16/2016.
  */
 public class HttpCall {
@@ -11,7 +13,12 @@ public class HttpCall {
 
     private String url;
     private int methodtype;
-    private HashMap<String,String> params ;
+    private HashMap<String, String> params;
+
+    // Constructor
+    public HttpCall() {
+        this.params = new HashMap<>(); // Initialize params
+    }
 
     public String getUrl() {
         return url;
@@ -26,7 +33,11 @@ public class HttpCall {
     }
 
     public void setMethodtype(int methodtype) {
-        this.methodtype = methodtype;
+        if (methodtype == GET || methodtype == POST) {
+            this.methodtype = methodtype;
+        } else {
+            throw new IllegalArgumentException("Invalid method type. Use HttpCall.GET or HttpCall.POST.");
+        }
     }
 
     public HashMap<String, String> getParams() {
