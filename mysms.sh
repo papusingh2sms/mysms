@@ -1,7 +1,7 @@
 #!/bin/bash
 # MySMS v1.0
-# Author: @thelinuxchoice (You don't become a coder by just changing the credits)
-# Github: https://github.com/thelinuxchoice/mysms
+# Author: @papusingh2sms (You don't become a coder by just changing the credits)
+# Github: https://github.com/papusingh2sms/mysms
 
 host="159.89.214.31" #Serveo.net
 
