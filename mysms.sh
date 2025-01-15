@@ -21,17 +21,13 @@ exit 1
 }
 
 dependencies() {
-
-
-command -v apksigner > /dev/null 2>&1 || { echo >&2 "I require apksigner but it's not installed. Install it. Aborting."; 
-exit 1; }
-command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it. Aborting."; exit 1; }
-command -v ssh > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting."; 
-exit 1; }
-
-command -v gradle > /dev/null 2>&1 || { echo >&2 "I require gradle but it's not installed. Install it. Aborting."; 
-exit 1; }
-
+    local required_commands=("apksigner" "php" "ssh" "gradle")
+    for cmd in "${required_commands[@]}"; do
+        command -v "$cmd" > /dev/null 2>&1 || {
+            echo >&2 "I require $cmd but it's not installed. Install it. Aborting."
+            exit 1
+        }
+    done
 }
 
 banner() {
